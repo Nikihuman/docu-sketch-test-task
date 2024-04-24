@@ -1,9 +1,18 @@
+:root{
+  --main-background: #808080;
+  --backlight: #03e9f4;
+  --border-primary-color: rgba(0, 0, 0, 0.564);
+  --primary: #5c5f65;
+  --hover:  #464747;
+  --text: #d0cfcf;
+}
+
 body {
+  background-color: var(--main-background);
   margin: 0;
   padding: 0;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+*{
+  color: var(--text);
 }
